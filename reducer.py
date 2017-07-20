@@ -6,10 +6,24 @@ import sys
 
 
 def read_mapper_output(file, separator='\t'):
+    '''
+    This function read mapper output
+    :param file: input file
+    :type file : sys.stdin
+    :param separator: seperator string
+    :type separator:str
+    :return: yeild in each iteration
+    '''
     for line in file:
         yield line.rstrip().split(separator, 1)
 
 def sort(input_list):
+    '''
+    This function sort input list
+    :param input_list: input list
+    :type input_list:list
+    :return: sorted list as list
+    '''
     temp_list=input_list
     length=len(input_list)
     output=[]
@@ -22,6 +36,14 @@ def sort(input_list):
     return output
 
 def main(separator='\t'):
+    '''
+    This function first read mapper output from terminal output (sys.stdin) and pass it to read_mapper to pretify it
+    after that append each word with same sorted face to a seperated list and append each seperated list to lager final list
+    in final step call sort function to sort larg list and print each item of this list
+    :param separator: seperator between sorted word and first word
+    :type separator: str
+    :return: None
+    '''
     data = read_mapper_output(sys.stdin, separator=separator)
     final_list=[]
     for current_word, group in groupby(data, itemgetter(0)):
