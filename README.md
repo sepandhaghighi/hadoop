@@ -108,8 +108,9 @@
 ## Run Map/Reduce
 ``` hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.8.0.jar -input input.txt -mapper /home/hduser/hadoop/mapper.py -reducer /home/hduser/hadoop/reducer.py -output /output```
 
-## Read Output			
+## Read/Copy Output			
 ``` hadoop fs -cat /output/part-00000```
+``` hadoop fs -get /output/part-00000 /home/username/hadoop/output.txt```
 
 
 				
