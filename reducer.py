@@ -4,7 +4,7 @@ from itertools import groupby
 from operator import itemgetter
 import sys
 
-output=[]
+
 def read_mapper_output(file, separator='\t'):
     for line in file:
         yield line.rstrip().split(separator, 1)
@@ -15,6 +15,7 @@ def sort(input_list):
     output=[]
     for i in range(length):
         output.append(temp_list.pop(temp_list.index(max(temp_list))))
+    return output
 
 def main(separator='\t'):
     data = read_mapper_output(sys.stdin, separator=separator)
@@ -23,8 +24,8 @@ def main(separator='\t'):
         anagram_list = list(set(anagram for current_word, anagram in group))
         if anagram_length > 2:
             final_list.append(anagram_list)
-    sort(final_list)
-    for item in output:
+    sorted_list=sort(final_list)
+    for item in sorted_list:
         print "%s\t%s" % (len(item), item)
 
 
