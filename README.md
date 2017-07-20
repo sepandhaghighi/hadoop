@@ -94,6 +94,7 @@
 	- ```hadoop namenode -format```
 	- ```cd /usr/local/hadoop/sbin```
 	- ```start-all.sh```
+	- In Connection Refused Problems Check [https://wiki.apache.org/hadoop/ConnectionRefused](https://wiki.apache.org/hadoop/ConnectionRefused "Connection Refused")
 
 
 
