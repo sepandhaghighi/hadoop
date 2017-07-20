@@ -48,9 +48,7 @@ def main(separator='\t'):
     final_list=[]
     for current_word, group in groupby(data, itemgetter(0)):
         anagram_list = list(set(anagram for current_word, anagram in group))
-        anagram_length=len(anagram_list)
-        if anagram_length>1:
-            final_list.append(anagram_list)
+        final_list.append(anagram_list)
     sorted_list=sort(final_list)
     for item in sorted_list:
         print "%s\t%s" % (len(item), item)
