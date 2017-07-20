@@ -100,12 +100,16 @@
 ## Clone Repo			
 - ```cd /home/username```
 - ```git clone https://github.com/sepandhaghighi/hadoop```
+- ``` chmod -R 777 /home/username/hadoop```
 
 ## Add Input To Filesystem
 ``` hadoop fs -put inputfile inputfile```
 
 ## Run Map/Reduce
 ``` hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.8.0.jar -input input.txt -mapper /home/hduser/hadoop/mapper.py -reducer /home/hduser/hadoop/reducer.py -output /output```
+
+## Read Output			
+``` hadoop fs -cat /output/part-00000```
 
 
 				
