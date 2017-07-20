@@ -73,7 +73,7 @@
 	- ```sudo mkdir -p /usr/local/hadoop_store/hdfs/datanode```
 	- ```sudo chown -R username:hadoop /usr/local/hadoop_store```
 	- ```nano /usr/local/hadoop/etc/hadoop/hdfs-site.xml``` enter the following in between the <configuration></configuration> tag
-		-```<configuration>
+		- ```<configuration>
  			<property>
   			<name>dfs.replication</name>
   			<value>1</value>
