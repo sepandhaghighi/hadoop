@@ -124,10 +124,10 @@
 
 ## HDFS Commands
 	
-	1. Add input to filesystem --> 	``` hadoop fs -put inputfile inputfile```
-	2. Read output file --> ``` hadoop fs -cat /output/part-00000``` 
-	3. Copy output file --> ``` hadoop fs -get /output/part-00000 /home/username/hadoop/output.txt```
-	4. Remove output folder --> ``` hadoop fs -rmr /output/```  		
+1. Add input to filesystem --> 	``` hadoop fs -put inputfile inputfile```
+2. Read output file --> ``` hadoop fs -cat /output/part-00000``` 
+3. Copy output file --> ``` hadoop fs -get /output/part-00000 /home/username/hadoop/output.txt```
+4. Remove output folder --> ``` hadoop fs -rmr /output/```  		
 
 
 ## Run Map/Reduce
