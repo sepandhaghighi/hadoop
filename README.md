@@ -125,7 +125,7 @@
 ## HDFS Commands
 	
 	1. Add input to filesystem
-		- ``` hadoop fs -put inputfile inputfile```
+	``` hadoop fs -put inputfile inputfile```
 	2. Read output file
 		- ``` hadoop fs -cat /output/part-00000```
 	3. Copy output file
