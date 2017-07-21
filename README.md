@@ -6,6 +6,7 @@
 <a href="https://scrutinizer-ci.com/g/sepandhaghighi/hadoop/"><img src="https://scrutinizer-ci.com/g/sepandhaghighi/hadoop/badges/quality-score.png?b=master"></a>
 <a href="https://www.codacy.com/app/sepand-haghighi/hadoop?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sepandhaghighi/hadoop&amp;utm_campaign=Badge_Grade"><img src="https://api.codacy.com/project/badge/Grade/5ffa02becfca4f20b3ff036769942244"/></a>
 <a href="https://scrutinizer-ci.com/g/sepandhaghighi/hadoop/"><img src="https://scrutinizer-ci.com/g/sepandhaghighi/hadoop/badges/build.png?b=master"></a>
+<a href="https://www.python.org/ftp/python/2.7.13/python-2.7.13.msi"><img src="https://img.shields.io/badge/python-2.7%2B-blue.svg"></a>
 </div>
 ## Requirements
 
