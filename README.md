@@ -15,7 +15,8 @@
 - [Python 2.7+](https://www.python.org/ftp/python/2.7.13/python-2.7.13.msi "Python 2.7+")
 - [Hadoop Framework](http://hadoop.apache.org/ "Hadoop")
 - [JDK 7+](www.oracle.com/technetwork/java/javase/downloads/index.html "JDK 7+")
-- SSH	
+- SSH
+- Git	
 
 ## Install Hadoop							
 
