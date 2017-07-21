@@ -31,7 +31,7 @@ then group this input data by first item(sorted word) and append words with same
 in final step call sort function to sort large list and print each item of this list.
 This sort function, sort list of lists by length of each list (method : selection sort)
 
-More information in github page : https://github.com/sepandhaghighi/hadoop
+More information (Step By Step Installation, Screenshots and ... ) available in github page : https://github.com/sepandhaghighi/hadoop
 
 
  
