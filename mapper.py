@@ -17,8 +17,8 @@ def main(separator='\t'):
     '''
     This function get input file from sys.stdin (argument passing in terminal) and pass this file to read_input function
     in each output of read_input function check list items if char number of each word larger than 0 (word validation)
-    sort letter of word and print sorted word and first word with a seperator(default value ="\t") to terminal
-    :param separator: seperator for sorted word and first word
+    sort letter of word and print sorted word and first word with a separator(default value ="\t") to terminal
+    :param separator: separator for sorted word and first word
     :type separator:str
     :return: None
     '''
