@@ -131,7 +131,7 @@
 ``` hadoop fs -cat /output/part-00000```
 ``` hadoop fs -get /output/part-00000 /home/username/hadoop/output.txt```
 
-## Samples			
+## Samples & Screenshots			
 
 Input.txt and output.txt in data folder
 
@@ -140,7 +140,12 @@ Input.txt and output.txt in data folder
 <p>Input file</p>
 <img src="images/output.jpg">
 <p>Output file</p>
-
+<img src="images/screen1.png">
+<p>Screenshot 1</p>
+<img src="images/screen2.png">
+<p>Screenshot 2</p>
+<img src="images/screen3.png">
+<p>Screenshot 3</p>
 </div>
 
 
