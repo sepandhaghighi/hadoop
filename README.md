@@ -1,4 +1,14 @@
-# Anagram Sorter (Python , Hadoop)			
+# Anagram Sorter (Python , Hadoop)
+### Sharif University Of Technology
+### Green Computing Final Project Spring 2017
+
+## Requirements
+
+
+- [Python 2.7+](https://www.python.org/ftp/python/2.7.13/python-2.7.13.msi "Python 2.7+")
+- [Hadoop Framework](http://hadoop.apache.org/ "Hadoop")
+- [JDK 7+](www.oracle.com/technetwork/java/javase/downloads/index.html "JDK 7+")
+- SSH	
 
 ## Install Hadoop							
 
@@ -91,6 +101,7 @@
    			<value>file:/usr/local/hadoop_store/hdfs/datanode</value>
  			</property>
 			</configuration>```
+6. Start Hadoop
 	- ```hadoop namenode -format```
 	- ```cd /usr/local/hadoop/sbin```
 	- ```start-all.sh```
