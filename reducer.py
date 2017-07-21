@@ -5,7 +5,7 @@ from operator import itemgetter
 import sys
 
 
-def read_mapper_output(file, separator='\t'):
+def read_mapper_output(input_file, separator='\t'):
     '''
     This function read mapper output
     :param file: input file
@@ -14,13 +14,13 @@ def read_mapper_output(file, separator='\t'):
     :type separator:str
     :return: yield in each iteration
     '''
-    for line in file:
+    for line in input_file:
         yield line.rstrip().split(separator, 1)
 
 def sort(input_list):
     '''
-    This function sort input list
-    :param input_list: input list
+    This function sort input list (method : selection sort)
+    :param input_list: list of lists
     :type input_list:list
     :return: sorted list as list
     '''
@@ -28,11 +28,13 @@ def sort(input_list):
     length=len(input_list)
     output=[]
     length_list=list(map(len,input_list))
-    for i in range(length):
+    i=0
+    while(i<length):
         max_item=max(length_list)
         max_index=length_list.index(max_item)
         length_list.remove(max_item)
         output.append(temp_list.pop(max_index))
+        i+=1
     return output
 
 def main(separator='\t'):

@@ -2,7 +2,7 @@
 
 import sys
 import re
-def read_input(file):
+def read_input(input_file):
     '''
     This function read input file line by line change it to lowercase and split words of this line and yield
     (return in each iteration) as list
@@ -10,7 +10,7 @@ def read_input(file):
     :type file : file object
     :return: yield in each iteration
     '''
-    for line in file:
+    for line in input_file:
         line = re.split('[^a-z]+', line.lower())
         yield line
 def main(separator='\t'):
