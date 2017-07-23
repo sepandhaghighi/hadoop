@@ -1,4 +1,7 @@
-# Anagram Sorter (Python , Hadoop)
+<div align="center">
+<img src="images/anagram.png">
+</div>
+# Anagram Sorter (Python + Hadoop)
 ### Sharif University Of Technology
 ### Green Computing Final Project Spring 2017
 <hr/>
