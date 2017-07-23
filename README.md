@@ -143,7 +143,7 @@
 
 ## Samples & Screenshots
 
-[Download Run Full Video 43MB](http://www.shaghighi.ir/hadoop/Full.mkv "Download")			
+[Download Run Full Video](http://www.shaghighi.ir/hadoop/Full.mkv "Download") 43MB ( This video recorded by [simplescreenrecorder](http://www.maartenbaert.be/simplescreenrecorder/ "simplescreenrecorder") )			
 
 Input.txt and output.txt in data folder
 
