@@ -134,7 +134,9 @@
 ``` hadoop jar /usr/local/hadoop/share/hadoop/tools/lib/hadoop-streaming-2.8.0.jar -input input.txt -mapper /home/hduser/hadoop/mapper.py -reducer /home/hduser/hadoop/reducer.py -output /output```
 
 
-## Samples & Screenshots			
+## Samples & Screenshots
+
+[Download Run Full Video 43MB](http://www.shaghighi.ir/hadoop/Full.mkv "Download")			
 
 Input.txt and output.txt in data folder
 
