@@ -1,6 +1,10 @@
 <div align="center">
 <img src="images/anagram.png">
-</div>
+</div>				
+
+----------
+			
+
 # Anagram Sorter (Python + Hadoop)
 ### Sharif University Of Technology
 ### Green Computing Final Project Spring 2017
